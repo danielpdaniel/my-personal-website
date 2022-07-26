@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient() (pink, peachpuff);
+    background: linear-gradient(pink, peachpuff);
 }
 
 h1 {
@@ -8,4 +8,20 @@ h1 {
     padding-left: 3px;
     border-radius: 7px;
     background: azure;
+}
+ p {
+    position: absolute;
+    margin-left: 2px;
+    padding-left: 3px;
+    border-radius: 7px;
+    background: azure;
+ }
+
+#bailey {
+    max-width: 200px
+    
+}
+
+.image-caption {
+font-style: italic
 }

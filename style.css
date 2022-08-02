@@ -3,25 +3,42 @@ body {
 }
 
 h1 {
-    position: absolute;
+    position: relative;
+    max-width: fit-content;
     margin-left: 2px;
     padding-left: 3px;
     border-radius: 7px;
     background: azure;
+    margin: 10px;
 }
  p {
-    position: absolute;
+    position: relative;
+    max-width: fit-content;
     margin-left: 2px;
     padding-left: 3px;
     border-radius: 7px;
+    border: 15px green;
     background: azure;
  }
 
 #bailey {
-    max-width: 200px
-    
+    max-width: 200px;
+    position: sticky;
+    padding: 10px;
+    margin: 10px;
+    background: orange;
+    border-radius: 7px;
+    align-content: center;
 }
 
 .image-caption {
 font-style: italic
+}
+
+h2 {
+    color: greenyellow;
+    margin: 10px;
+    position:relative;
+    max-width: fit-content;
+    background-image: url(images/bailey_01.jpg);
 }

@@ -1,20 +1,31 @@
 const h2 = document.createElement("h2");
+const baileyGirl = document.getElementById("bailey");
+
 h2.textContent = "This content added by JavaScript";
 
 document.querySelector("body").appendChild(h2);
 
-
-document.getElementById("bailey").style.cursor = "pointer";
-
-const baileyGirl = document.getElementById("bailey");
-
-function clickAlert() {
-    alert('I was clicked!');
-}
+baileyGirl.style.cursor = "grab";
 
 function addClickAlert () {
-   baileyGirl.addEventListener('click', clickAlert);
+   baileyGirl.addEventListener('click', function() {
+    return alert("woof woof lol");
+   });
 }
 
-addClickAlert();
+function addDragMessage() {
+    baileyGirl.addEventListener('drag', function() {
+        return alert("ay bub! i'm walkin here!");
+    });
+}
 
+function addMouseOutMessage() {
+    baileyGirl.addEventListener('mouseout', function() {
+        return alert("give her a pat, why not? live a little...")
+    })
+}
+
+
+addClickAlert();
+addDragMessage();
+addMouseOutMessage();

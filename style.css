@@ -1,5 +1,8 @@
 body {
     background: linear-gradient(pink, peachpuff);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    cursor: crosshair;
 }
 
 h1 {
@@ -26,7 +29,7 @@ h1 {
     position: sticky;
     padding: 10px;
     margin: 10px;
-    background: orange;
+    background: hotpink;
     border-radius: 7px;
     align-content: center;
 }
@@ -36,10 +39,12 @@ font-style: italic
 }
 
 h2 {
+    font-size: 2em;
     color: greenyellow;
     margin: 10px;
     position:relative;
     max-width: fit-content;
-    background-image: url(images/bailey_01.jpg);
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia2.giphy.com%2Fmedia%2FpOhqA8rf4IwuDoM0QI%2Fgiphy.gif&f=1&nofb=1);
+    background-size:contain;
 }
 

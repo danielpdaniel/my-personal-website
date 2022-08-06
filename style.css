@@ -2,7 +2,7 @@ body {
     background: linear-gradient(pink, peachpuff);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    cursor: crosshair;
+    cursor: url("images/bailey_04_cursor.png"), crosshair;
 }
 
 h1 {
